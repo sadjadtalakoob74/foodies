@@ -8,7 +8,7 @@ function MealsFormSubmitBtn(props) {
     const {pending} = useFormStatus();
     return (
         <p className={classes.actions}>
-            <button type="submit" disabled={pending}>{pending?'submiting...':'Share Meal'}</button>
+            <button type="submit" disabled={pending}>{pending?'submitting...':'Share Meal'}</button>
         </p>
     );
 }
